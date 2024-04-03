@@ -1,0 +1,103 @@
+/* Reset general */
+
+/* Box sizing border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset de márgenes y rellenos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset de listas */
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Establecer estilos de texto base */
+body {
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  color: #333; /* Color de texto predeterminado */
+}
+
+/* Estilos para imágenes */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset de formularios */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  margin: 0;
+}
+
+/* Elementos HTML5 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Estilos de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Estilos de botones */
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos de tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+/* Estilo predeterminado para la imagen de fondo */
+html {
+  background-color: #f9f9f9;
+}
+
